@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <br/>
+  <a href="https://www.narratejs.com"
+   target="_blank"><img width="96px" src="https://www.narratejs.com/images/logo_white.png" /></a>
+  <h2 align="center">NarrateJS</h2>
+  <p align="center">Blogging for Next.JS</p>
 
-## Getting Started
+  <p align="center" style="align: center;">
+    <a href="https://npm.im/narratejs">
+      <img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square" alt="TypeScript" />
+    </a>
+    <a href="https://www.npmtrends.com/narratejs">
+      <img src="https://img.shields.io/npm/dw/narratejs?style=flat-square" alt="Downloads" />
+    </a>
+    <a href="https://github.com/narratejs/narratejs/stargazers">
+      <img src="https://img.shields.io/github/stars/narratejs/narratejs?style=flat-square" alt="Github Stars" />
+    </a>
+    <a href="https://www.npmjs.com/package/narratejs">
+      <img src="https://img.shields.io/github/v/tag/narratejs/narratejs?style=flat-square" alt="Github Stable Release" />
+    </a>
+  </p>
+  <p align="center">
+    NarrateJS is a set of packages and functions that make it easy to drop in a fully functional article/blog system. Use any backend provider (eg. Supabase, MongoDB).
+  </p>
+    <p align="center">
+    This is an example Next.JS project with NarrateJS installed and a demo blog application in place.
+  </p>
+  <p align="center">
+    See <a href="https://www.narratejs.com">narratejs.com</a> for our documentation and more information.
+  </p>
+</p>
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### All-In-One Drop-In Blog System
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Blog editor with basic CRUD operations
+- Dynamic blog retreveal and rendering system based on Next.JS dynamic routing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Backend Agnostic
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We want the backend to be able to be swapped out with minimal disruption and code change. We anticipate many "modules" that will connect various backend systems to NarrateJS.
 
-## Learn More
+The first release will include support for Supabase only. Once the system is in place we will focus on creating more modules for other systems.
 
-To learn more about Next.js, take a look at the following resources:
+### TypeScript Support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NarrateJS libraries are written with type safety in mind. [Check out the docs](https://www.narratejs.com/getting-started/typescript) for more information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Security
 
-## Deploy on Vercel
+If you think you have found a vulnerability (or are not sure) in NarrateJS or any of the related packages, we ask you to read our [Security Policy](https://www.narratejs.com/security) to reach out responsibly. Please do not open Pull Requests/Issues/Discussions before consulting with us.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[NarrateJS is made possible thanks to all of its contributors.](https://www.narratejs.com/contributors)
+
+<!-- <a href="https://github.com/narratejs/narratejs/graphs/contributors">
+  <img width="500px" src="https://contrib.rocks/image?repo=narratejs/narratejs" />
+</a> -->
+<div>
+</div>
+
+### Sponsors
+
+We appreciate all sponsors and any help given to support our projects. Please feel free to visit our sponsor page for more information.
+
+## Contributing
+
+We're open to all community contributions! If you'd like to contribute in any way, please first read
+our [Contributing Guide](https://github.com/narratejs/narratejs/CONTRIBUTING.md).
+
+> [!NOTE]
+> The NarrateJS project is not provided by, nor otherwise affiliated with Vercel Inc. or its subsidiaries. Any contributions to this project by individuals affiliated with Vercel are made in their personal capacity.
+
+## License
+
+ISC
